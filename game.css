@@ -1,21 +1,26 @@
 body
 {
-	background: rgb(237, 6, 6);
+	background-image: url("https://cdn.pixabay.com/photo/2017/08/30/01/05/milky-way-2695569_960_720.jpg");
+	background-position: center; background-size: cover;
 }
 
 	.login_div1 , .login_div2
-	{
-		background: white;
+     {
 		padding: 10px;
 		float: none;
 		border-radius: 15px;
+		width: 30%;
+		height: 150px;
+		background-color: rgb(1, 1, 1);
 	}
 
 
 #player1_name , #player2_name
 {
 	display: inline-block;
-	margin-left: 20px;
+	margin-left: 3px;
+	color: rgb(0, 0, 0);
+	font-weight: bold;
 }
 #word
 {
@@ -27,10 +32,49 @@ body
 }
 #output
 {
-background:white;
-border-radius: 10px;
-border-top: 10px solid #AA4465;
-padding: 10px;
-float: none;
-text-align: left;
+	
+	border-radius: 10px;
+	border-top: 10px solid #ffffff;
+	padding: 10px;
+	float: none;
+	text-align: left;
+}
+h1{
+	color: rgb(250, 248, 248);
+	font-family: 'Akaya Kanadaka', cursive;
+}
+h3{
+	font-family: 'Lora', serif;
+	color: rgb(255, 254, 254);
+}
+#username{
+	font-family: 'Yellowtail', cursive;
+	color: rgb(14, 14, 14);
+}
+button{
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+input:hover{
+	background-color: rgb(255, 255, 255);
+}
+.login_div2:hover{
+	border: 5px solid rgb(0, 0, 0);
+	width: 35%;
+}
+.login_div1:hover{
+	border: 5px solid rgb(13, 10, 10);
+	width: 35%;
+}
+#number_1,#number_2
+{
+	color: rgb(0, 0, 0);
+	font-weight: bold;
+}
+h4{
+	color: rgb(4, 3, 3);
+	font-family: 'Akaya Kanadaka', cursive;
+	width: 100px;
+}
+h4:hover{
+	text-decoration: underline;
 }
